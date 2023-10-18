@@ -1,0 +1,171 @@
+
+body {
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: 'Roboto', arial;
+}
+
+.container0 {
+	display: flex;
+	flex-direction: column;
+}
+/* top nav */
+.top-nav {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1F2937;
+}
+
+.top-nav p {
+	margin-right: auto;
+	font-size: 24px;
+	color: #F9FAF8;
+	font-weight: bold;
+}
+
+.top-nav ul {
+	display: flex;
+	margin-left: auto;
+	padding: 0px 100px 0px 0px;
+	gap: 20px;
+	list-style-type: none;
+}
+
+.top-nav a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #E5E7EB;
+	padding: 10px;
+	font-family: 'Roboto', arial;
+}
+
+/* hero */
+.hero {
+	display: flex;
+	background-color: #1F2937;
+	color: #F9FAF8;
+	align-items: center;
+	justify-content: center;
+	padding: 90px;
+}
+
+.hero-para {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-right: 50px;
+	flex-basis: 400px;
+}
+
+.hero-para p {
+	font-family: 'Roboto', arial;
+	opacity: 0.7;
+}
+
+.hero-para button {
+	display: block;
+	text-align: center;
+	border: none;
+	font-weight: bold;
+	border-radius: 8px;
+	padding: 10px;
+	text-decoration: none;
+	width: 110px;
+	background-color: #3882F6;
+	color: white;
+	font-family: 'Roboto', arial;
+}
+
+.hero-img img {
+	width: 500px;
+	height: 350px;
+	border-radius: 15px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: bold;
+	color: #F9FAF8;
+	margin: 0;
+	font-family: 'Roboto', arial;
+}
+/*img gallery*/
+.container1 {
+	align-items: center;
+}
+
+.container1-info img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 15px;
+	border: 4px solid #3882F6;
+	margin: 5px 20px 0px 20px;
+}
+
+.container1-info {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+/* quote section */
+.quote-sec {
+	display: flex;
+	flex-direction: column;
+	background-color: #E5E7EB;
+	padding: 0 200px;
+}
+
+.quote-sec p {
+	font-size: 36px;
+	color: #1F2937;
+	font-style: italic;
+	font-weight: lighter;
+	font-family: 'Roboto', arial;
+}
+
+.quote-sec b {
+	padding-bottom: 20px;
+	padding-right: 200px;
+	font-family: 'Roboto', arial;
+	text-align: right;
+}
+/*sign me up mf*/
+.buttonbloc {
+	display: flex;
+	align-items: center;
+	border-radius: 15px;
+	border-color: none;
+	margin: 50px 200px;
+	padding: 10px 80px;
+	background-color: #3882F6;
+}
+
+.sign-item {
+	flex: 1;
+}
+
+.buttonbloc-text {
+	color: white;
+	padding: 0;
+	margin: 5px 30px 30px 50px;
+}
+
+.buttonbloc button {
+	border-radius: 5px;
+	background-color: #3882F6;
+	color: white;
+	margin-left: 25px;
+}
+/* foot job */
+.footer {
+	background-color: #1F2937;
+	color: #E5E7EB;
+	font-size: 15px;
+}
